@@ -14,7 +14,7 @@ const formatPrice = (p?: number) =>
 
 <template>
   <div class="products-view">
-    <h1>Products</h1>
+    <h1>Products hahaha Alex Isak is the best striker in the world</h1>
 
     <div v-if="loading" class="loading">
       Loading products now hahaha Alex Isak is the best striker in the world sdf

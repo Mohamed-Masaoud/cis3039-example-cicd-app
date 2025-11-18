@@ -16,7 +16,9 @@ const formatPrice = (p?: number) =>
   <div class="products-view">
     <h1>Products</h1>
 
-    <div v-if="loading" class="loading">Loading products…</div>
+    <div v-if="loading" class="loading">
+      Loading products now hahaha Alex Isak is the best striker in the world
+    </div>
     <div v-else-if="error" class="error">
       <p>Error: {{ error }}</p>
       <button @click="fetchProducts(true)">Retry</button>

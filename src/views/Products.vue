@@ -17,7 +17,7 @@ const formatPrice = (p?: number) =>
     <h1>Products</h1>
 
     <div v-if="loading" class="loading">
-      Loading products now hahaha Alex Isak is the best striker in the world
+      Loading products now hahaha Alex Isak is the best striker in the world sdf
     </div>
     <div v-else-if="error" class="error">
       <p>Error: {{ error }}</p>
